@@ -20,11 +20,12 @@ flex-direction: column;
 }
 
 header {
+     background-image: url(img/fundo.png);
  display: flex;
  flex-direction: row-reverse;
 }
 ul {
-    align-items: center;
+    align-items: flex-end;
      flex-direction: column;
     justify-content: space-evenly;
     width: 50vw;
@@ -35,9 +36,19 @@ ul {
     height: 50px;
     border-radius: 49%;
    border: 1px solid white;
+   margin-right: 10px;
 }
+
+.logo:hover {
+    width: 70px;
+    height: 70px;
+    transition-duration: 0.5s;
+    border: 1px solid white;
+}
+
 #perfil>img {
  width:50vw ;
+ 
     
 }
 .caixas{
@@ -49,4 +60,16 @@ ul {
 .caixas>section {
  width: 340px;
  height: 250px;
+}
+
+li{
+    list-style-type: none;
+}
+a {
+    text-decoration:none;
+    
+}
+
+span{
+    background-color: white;
 }
