@@ -57,19 +57,10 @@ ul {
    
 }
 
-.caixas>section {
+.caixas{
  width: 340px;
  height: 250px;
 }
 
-li{
-    list-style-type: none;
-}
-a {
-    text-decoration:none;
-    
-}
 
-span{
-    background-color: white;
-}
+
